@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Tek new Retail TestNG framework">
+    <test name="Smoke and Regression Tests">
+        <packages>
+            <package name="tek.retail.tdd.tests.smoke"/>
+            <package name="tek.retail.tdd.tests.regression"/>
+        </packages>
+    </test>
+</suite>
